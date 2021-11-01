@@ -3,9 +3,26 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    text-align: center;
+    font-size: large;
 }
 
-#titolo {
+#titolo, #sottotitolo {
     font-family: 'Henny Penny', cursive;
+    font-size: xx-large;
+    color: rgb(255, 136, 0);
+}
+
+#bottone {
+    font-size: large;
+}
+
+footer {
+    background-color: rgba(250, 67, 0, 0.767);
     font-size: x-large;
+}
+
+img {
+    width: 70px;
+    height: 70px;
 }
