@@ -1,0 +1,23 @@
+header {
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+}
+
+#immagine-profilo {
+    width: 225px;
+    height: 200px;
+}
+
+#riga-1 {
+    background-color: rgb(231, 189, 0);
+    border-color: rgb(231, 189, 0);
+    height: 2px;
+}
+
+#riga-2 {
+    border-color: rgb(231, 189, 0);
+}
+
+h2 {
+    color: rgb(231, 189, 0);
+}
