@@ -9,13 +9,17 @@ header {
 }
 
 #riga-1 {
+    color: rgb(231, 189, 0);
     background-color: rgb(231, 189, 0);
-    border-color: rgb(231, 189, 0);
+    border: none;
     height: 2px;
 }
 
 #riga-2 {
-    border-color: rgb(231, 189, 0);
+    color: rgb(231, 189, 0);
+    background-color: rgb(231, 189, 0);
+    border: none;
+    height: 1px;
 }
 
 h2 {
