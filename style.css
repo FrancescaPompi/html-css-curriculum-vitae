@@ -25,3 +25,7 @@ header {
 h2 {
     color: rgb(231, 189, 0);
 }
+
+div {
+    text-align: center;
+}
