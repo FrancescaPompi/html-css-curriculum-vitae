@@ -15,10 +15,64 @@
         <h2>Dolcetto o scherzetto?</h2>
         <p>L'autunno ci traghetta verso il periodo più horror dell'anno. Scegli il costume più inquietante e spettrale e preparati a festeggiare un party da paura!</p>
     </div>
+    <hr>
 
     <!--halloween party form-->
     <form id="registrati">
-
+        <div>
+            <label for="nome">Nome</label>
+            <br>
+            <input id="nome" type="text" placeholder="Inserisci nome" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail</label>
+            <br>
+            <input id="email" type="email" placeholder="Inserisci e-mail" required>
+        </div>
+        <br>
+        <div>
+            <label for="telefono">Telefono</label>
+            <br>
+            <input id="telefono" type="tel" placeholder=" Inserisci numero di telefono" required>
+        </div>
+        <br>
+        <div>
+            <label for="orario">Ora di arrivo</label>
+            <br>
+            <input id="orario" type="time">
+        </div>
+        <br>
+        <div>
+            <label for="amici">Quanti amici porti</label>
+            <br>
+            <input id="amici" type="number" placeholder="Indica un numero" required>
+        </div>
+        <br>
+        <div>
+            <label for="come ci hai trovati">Come ci hai trovati</label>
+            <br>
+            <select name="come ci hai trovati">
+                <option value="opt1">Social</option>
+                <option value="opt2">Pubblicità</option>
+                <option value="opt3">Passaparola</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="travestimento">Il tuo costume</label>
+            <br>
+            <textarea id="travestimento" name="costume" rows="10" cols="50" placeholder="Descrivi con quale costume parteciperai"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="privacy">Accetta le condizioni sulla privacy</label>
+            <input id="privacy" type="checkbox" required>
+        </div>
+        <br>
+        <div>
+            <input type="submit" placeholder="Invia">
+        </div>
     </form>
 
     <footer id="contatti">
