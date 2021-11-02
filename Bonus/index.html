@@ -14,75 +14,77 @@
         <h1>HALLOWEEN PARTY</h1>
     </header>
 
-    <!--descrizione party-->
-    <div id="descrizione">
-        <h2 id="sottotitolo">Dolcetto o scherzetto?</h2>
-        <p><strong>L'autunno ci traghetta verso il periodo più horror dell'anno.
+    <main>
+        <!--descrizione party-->
+        <div>
+            <h2 id="sottotitolo">Dolcetto o scherzetto?</h2>
+            <p><strong>L'autunno ci traghetta verso il periodo più horror dell'anno.
+                <br>
+                Scegli il costume più inquietante e spettrale e preparati a festeggiare un party da paura!</strong></br></p>
+        </div>
+        
+        <!--halloween party form-->
+        <form>
+            <div>
+                <label for="nome">Nome</label>
+                <br>
+                <input id="nome" type="text" placeholder="Inserisci nome" required>
+            </div>
             <br>
-            Scegli il costume più inquietante e spettrale e preparati a festeggiare un party da paura!</strong></br></p>
-    </div>
-    
-    <!--halloween party form-->
-    <form id="registrati">
-        <div>
-            <label for="nome">Nome</label>
+            <div>
+                <label for="email">E-mail</label>
+                <br>
+                <input id="email" type="email" placeholder="Inserisci e-mail" required>
+            </div>
             <br>
-            <input id="nome" type="text" placeholder="Inserisci nome" required>
-        </div>
-        <br>
-        <div>
-            <label for="email">E-mail</label>
+            <div>
+                <label for="telefono">Telefono</label>
+                <br>
+                <input id="telefono" type="tel" placeholder=" Inserisci numero di telefono" required>
+            </div>
             <br>
-            <input id="email" type="email" placeholder="Inserisci e-mail" required>
-        </div>
-        <br>
-        <div>
-            <label for="telefono">Telefono</label>
+            <div>
+                <label for="orario">Ora di arrivo</label>
+                <br>
+                <input id="orario" type="time">
+            </div>
             <br>
-            <input id="telefono" type="tel" placeholder=" Inserisci numero di telefono" required>
-        </div>
-        <br>
-        <div>
-            <label for="orario">Ora di arrivo</label>
+            <div>
+                <label for="amici">Quanti amici porti</label>
+                <br>
+                <input id="amici" type="number" placeholder="Indica un numero" required>
+            </div>
             <br>
-            <input id="orario" type="time">
-        </div>
-        <br>
-        <div>
-            <label for="amici">Quanti amici porti</label>
+            <div>
+                <label for="come ci hai trovati">Come ci hai trovati</label>
+                <br>
+                <select name="come ci hai trovati">
+                    <option value="opt1">Social</option>
+                    <option value="opt2">Pubblicità</option>
+                    <option value="opt3">Passaparola</option>
+                </select>
+            </div>
             <br>
-            <input id="amici" type="number" placeholder="Indica un numero" required>
-        </div>
-        <br>
-        <div>
-            <label for="come ci hai trovati">Come ci hai trovati</label>
+            <div>
+                <label for="travestimento">Il tuo costume</label>
+                <br>
+                <textarea id="travestimento" name="costume" rows="10" cols="50" placeholder="Descrivi con quale costume parteciperai"></textarea>
+            </div>
             <br>
-            <select name="come ci hai trovati">
-                <option value="opt1">Social</option>
-                <option value="opt2">Pubblicità</option>
-                <option value="opt3">Passaparola</option>
-            </select>
-        </div>
-        <br>
-        <div>
-            <label for="travestimento">Il tuo costume</label>
+            <div>
+                <label for="privacy"><strong>Accetta le condizioni sulla privacy</strong></label>
+                <input id="privacy" type="checkbox" required>
+            </div>
             <br>
-            <textarea id="travestimento" name="costume" rows="10" cols="50" placeholder="Descrivi con quale costume parteciperai"></textarea>
-        </div>
+            <div>
+                <input id="bottone" type="submit" placeholder="Invia">
+            </div>
+        </form>
         <br>
-        <div>
-            <label for="privacy"><strong>Accetta le condizioni sulla privacy</strong></label>
-            <input id="privacy" type="checkbox" required>
-        </div>
-        <br>
-        <div>
-            <input id="bottone" type="submit" placeholder="Invia">
-        </div>
-    </form>
-    <br>
+    </main>
 
     <!---contatti-->
-    <footer id="contatti">
+    <footer>
         <br>
         <h3>Contattaci!</h3>
         <img id="logo" src="instagram.png">  <img id="logo" src="facebook.png">  <img id="logo" src="youtube.png">
